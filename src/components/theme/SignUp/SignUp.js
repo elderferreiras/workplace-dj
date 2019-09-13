@@ -43,6 +43,17 @@ const signUp = (props) => {
                             variant="outlined"
                             required
                             fullWidth
+                            id="company"
+                            label="Company's Name"
+                            name="company"
+                            autoComplete="company"
+                        />
+                    </Grid>
+                    <Grid item xs={12}>
+                        <TextField
+                            variant="outlined"
+                            required
+                            fullWidth
                             id="email"
                             label="Email Address"
                             name="email"

@@ -10,13 +10,14 @@ import SignIn from '../SignIn/SignIn';
 import SignUp from '../SignUp/SignUp';
 import ResetPassword from "../ResetPassword/ResetPassword";
 import NewPassword from '../NewPassword/NewPassword';
+import HomeBackground from '../../../assets/images/home-bg.jpg';
 
 const useStyles = makeStyles(theme => ({
     root: {
         height: '100vh',
     },
     image: {
-        backgroundImage: 'url(https://source.unsplash.com/random)',
+        backgroundImage: `url(${HomeBackground})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
